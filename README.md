@@ -1,2 +1,2 @@
 # docker-cfn-lint
-Cloudformation Linting Tool
+Docker image containing CFN Lint
