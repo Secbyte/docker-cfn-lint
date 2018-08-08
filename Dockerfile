@@ -1,5 +1,5 @@
 FROM node:alpine
-ENV CFN_LINT_VERSION 1.7.4
+ENV CFN_LINT_VERSION 1.8.0
 RUN apk add --no-cache git make
 RUN yarn global add cfn-lint@${CFN_LINT_VERSION}
 WORKDIR /srv/app
